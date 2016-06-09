@@ -1,16 +1,17 @@
 
-/*.stripe{*/
-    /*outline: solid black 1px;*/
-    /*display: block;*/
-/*}*/
+.stripe{
+    margin-left: -15px;
+    margin-right: -15px;
+}
 .stripe.menubar{
     height: 43px;
     padding-right: 20px;
     background-color: #f2bcad;
+
 }
 .stripe.menubar img{
-    height:43px;
-    margin-left: -15px;
+    height:42px;
+
 }
 .stripe.promo{
     height: 750px;
@@ -24,9 +25,8 @@
     height:auto;
 }
 .stripe.features .item{
-    /*width: 23%;*/
-    /*display: inline-block;*/
-    /*float: none!important;*/
+   background-color: #dbdddf;
+    padding-bottom: 20px;
 }
 
 .stripe.features .item  img.feature.image{
@@ -36,18 +36,20 @@
 
 }
 .stripe.features .item .feature.text{
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     max-width:260px;
 }
 .stripe.videoholder{
     height:365px;
+    margin-top:30px;
 }
 .stripe.videoholder .item .text{
    text-align: center;
     vertical-align: middle;
+    margin-top: 20px;
     padding: 25px 100px 25px 100px;
 }
 .stripe.videoholder .item .video{
     margin-bottom: 25px;
-    margin-top: 25px;
 }
