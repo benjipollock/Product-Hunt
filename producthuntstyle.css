@@ -27,13 +27,20 @@
 .stripe.features .item{
    background-color: #dbdddf;
     padding-bottom: 20px;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 .stripe.features .item  img.feature.image{
     height: 100px;
     margin-top: 25px;
     margin-bottom: 25px;
-
+    transition: all 0.3s ease-in-out 0s;
+}
+.stripe.features .item  img.feature.image:hover{
+    cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out 0s;
 }
 .stripe.features .item .feature.text{
     margin-top: 20px;
@@ -42,13 +49,23 @@
 }
 .stripe.videoholder{
     height:365px;
-    margin-top:30px;
-}
-.stripe.videoholder .item .text{
-   text-align: center;
+    margin-top:50px;
+    text-align: center;
     vertical-align: middle;
-    margin-top: 20px;
-    padding: 25px 100px 25px 100px;
+    background-color: #6bcbc2;
+}
+.stripe.videoholder .item.description{
+    margin-top: 110px;
+    padding-right: 130px;
+    padding-left: 130px;
+}
+
+.stripe.videoholder .item .text{
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    padding: 0px 100px 0px 100px;
+    display: inline-block;
 }
 .stripe.videoholder .item .video{
     margin-bottom: 25px;
