@@ -1,8 +1,8 @@
 
-.stripe{
-    outline: solid black 1px;
-    display: block;
-}
+/*.stripe{*/
+    /*outline: solid black 1px;*/
+    /*display: block;*/
+/*}*/
 .stripe.menubar{
     height: 43px;
     padding-right: 20px;
@@ -13,7 +13,7 @@
 }
 .stripe.promo{
     height: 750px;
-    background-image: url(https://static.pexels.com/photos/7720/night-animal-dog-pet.jpg);
+    background-image: url(pedro.gif);
     background-size: cover;
     background-position: center;
 }
@@ -22,9 +22,10 @@
     vertical-align: middle;
     height:auto;
 }
-.stripe.features .col-md-3.item.feature{
-    width: 23%;
-    display: inline-block;
+.stripe.features .item{
+    /*width: 23%;*/
+    /*display: inline-block;*/
+    /*float: none!important;*/
 }
 
 .stripe.features .item  img.feature.image{
