@@ -1,0 +1,51 @@
+
+.stripe{
+    outline: solid black 1px;
+    display: block;
+}
+.stripe.menubar{
+    height: 43px;
+    padding-right: 20px;
+}
+.stripe.menubar img{
+    height:43px;
+    margin-left: -15px;
+}
+.stripe.promo{
+    height: 750px;
+    background-image: url(https://static.pexels.com/photos/7720/night-animal-dog-pet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.stripe.features{
+    text-align: center;
+    vertical-align: middle;
+    height:auto;
+}
+.stripe.features .col-md-3.item.feature{
+    width: 23%;
+    display: inline-block;
+}
+
+.stripe.features .item  img.feature.image{
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.stripe.features .item .feature.text{
+    margin-bottom: 25px;
+    max-width:260px;
+}
+.stripe.videoholder{
+    height:365px;
+}
+.stripe.videoholder .item .text{
+   text-align: center;
+    vertical-align: middle;
+    padding: 25px 100px 25px 100px;
+}
+.stripe.videoholder .item .video{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
