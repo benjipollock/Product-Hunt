@@ -1,13 +1,30 @@
-
+/*@font-face {*/
+    /*font-family: "Montserrat-Regular";*/
+    /*src: url("../fonts/Montserrat/Montserrat-Regular.otf") format('opentype');*/
+    /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+    /*font-family: "Montserrat-Regular";*/
+    /*src: url("../Fonts/Montserrat/Montserrat-Regular.otf") format('opentype');*/
+    /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+    /*font-family: "Montserrat-Regular";*/
+    /*src: url("../Fonts/Montserrat/Montserrat-Regular.otf") format('opentype');*/
+    /*font-style: normal;*/
+}
 .stripe{
     margin-left: -15px;
     margin-right: -15px;
 }
 .stripe.menubar{
+    position: fixed;
+    width: 102%;
+    z-index: 100;
     height: 43px;
     padding-right: 20px;
     background-color: #f2bcad;
-
+    opacity: .7;
 }
 .stripe.menubar img{
     height:42px;
@@ -15,9 +32,16 @@
 }
 .stripe.promo{
     height: 750px;
-    background-image: url(pedro.gif);
+    background-image: url();
     background-size: cover;
     background-position: center;
+}
+.stripe.featuresheader{
+    color: #fa1681;
+    font-size: 22px;
+    text-align: center;
+    /*font-family: BentonSans Black Regular;*/
+
 }
 .stripe.features{
     text-align: center;
@@ -25,10 +49,12 @@
     height:auto;
 }
 .stripe.features .item{
-   background-color: #dbdddf;
+   background-color: white;
     padding-bottom: 20px;
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-right: gray 1px solid;
+    border-left: gray 1px solid;
 }
 
 .stripe.features .item  img.feature.image{
@@ -48,14 +74,13 @@
     max-width:260px;
 }
 .stripe.videoholder{
-    height:365px;
-    margin-top:50px;
+    padding-top: 30px;
     text-align: center;
     vertical-align: middle;
     background-color: #6bcbc2;
 }
 .stripe.videoholder .item.description{
-    margin-top: 110px;
+    margin-top: 30px;
     padding-right: 130px;
     padding-left: 130px;
 }
@@ -64,9 +89,14 @@
     text-align: center;
     vertical-align: middle;
     margin-bottom: 30px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 10% 0px 10%;
     display: inline-block;
 }
 .stripe.videoholder .item .video{
     margin-bottom: 25px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
 }
