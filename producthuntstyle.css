@@ -111,3 +111,22 @@
     vertical-align: middle;
     float: left;
 }
+.stripe.mobileapp{
+    margin-top: 100px;
+    text-align: center;
+    height:auto;
+}
+
+.stripe.mobileapp .phone1{
+    height: 500px;
+
+}
+.stripe.mobileapp .phone2{
+    height: 500px;
+}
+
+.stripe.footer{
+    background-color: #74c9c3;
+    height: 300px;
+    width: 100%;
+}
