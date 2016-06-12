@@ -133,8 +133,11 @@
 .stripe.mobileapp .phone1{
     height: 450px;
     position:relative;
-
+    display:block;
+    vertical-align: right;
 }
+
+
 .stripe.mobileapp .phone2{
     height: 450px;
     position:relative;
