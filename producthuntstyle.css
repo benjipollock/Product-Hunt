@@ -13,6 +13,12 @@
     src: url("Fonts/Benton_sans/BentonSansFree/BentonSans Regular.otf") format('opentype');
     font-style: normal;
 }
+@font-face {
+    font-family: "HelveticaTSLight";
+    src: url("Fonts/HelveticaLTStd/HelveticaLTStd-Light.otf")format('opentype');
+    font-style: normal;
+}
+
 .stripe{
     margin-left: -15px;
     margin-right: -15px;
@@ -112,18 +118,54 @@
     float: left;
 }
 .stripe.mobileapp{
-    margin-top: 100px;
-    text-align: center;
+    margin-top: 50px;
     height:auto;
+}
+.stripe.mobileapp .mobileappheader{
+    color: #fa1681;
+    font-size: 30px;
+    text-align: center;
+    font-family: BentonSans-Black;
+    margin-bottom: 20px;
+
 }
 
 .stripe.mobileapp .phone1{
-    height: 500px;
+    height: 450px;
+    position:relative;
 
 }
 .stripe.mobileapp .phone2{
-    height: 500px;
+    height: 450px;
+    position:relative;
 }
+
+
+.stripe.mobileapp .phone1title{
+    font-family: BentonSans-Black;
+    color: #74c9c3;
+    font-size: 18px;
+    text-align:right;
+}
+
+.stripe.mobileapp .phone1text{
+    font-family: HelveticaTSLight ;
+    color: #707070;
+    font-size: 14px;
+    text-align:right;
+}
+.stripe.mobileapp .phone2title{
+    font-family: BentonSans-Black;
+    color: #74c9c3;
+    font-size: 18px;
+    text-align:center;
+}
+
+.stripe.mobileapp .phone2text{
+    font-family: HelveticaTSLight ;
+    color: #707070;
+    font-size: 14px;
+    text-align:center;}
 
 .stripe.footer{
     background-color: #74c9c3;
