@@ -154,12 +154,12 @@ a:hover {
 .stripe.features .item  img.feature.image{
     height: 50px;
     margin-bottom: 25px;
-    transition: all 0.3s ease-in-out 0;
+    transition: all 0.3s;
 }
 .stripe.features .item  img.feature.image:hover{
     cursor: default;
     transform: rotate(180deg);
-    transition: all 0.3s ease-in-out 0;
+    transition: all 0.3s;
 }
 .stripe.features .item .feature.text{
     max-width:260px;
