@@ -214,22 +214,137 @@ a:hover {
     vertical-align: middle;
     float: left;
 }
+
+/*Ilana's updated stuff*/
 .stripe.mobileapp{
-    margin-top: 100px;
-    text-align: center;
+    margin-top: 50px;
     height:auto;
+}
+.stripe.mobileapp .mobileappheader{
+    color: #fa1681;
+    font-size: 30px;
+    text-align: center;
+    font-family: BentonSans-Black;
+    margin-bottom: 10px;
 }
 
 .stripe.mobileapp .phone1{
-    height: 500px;
+    height: 450px;
+    margin-left: 50%;
+    position: relative;
+}
+
+
+.stripe.mobileapp .phone2{
+    height: 450px;
+    margin-left: 20%;
+    position: relative;
+}
+
+.stripe.mobileapp .phonegiftext2{
+    position:absolute;
+    margin-top:-450px;
+    margin-left:350px;
+    padding:20px;
+}
+
+.stripe.mobileapp .phonegiftext1{
+    position: absolute;
+    position:absolute;
+    margin-top:-450px;
+    margin-left:350px;
+    padding:20px;
+}
+
+.stripe.mobileapp .phone1title{
+    font-family: BentonSans-Black;
+    color: #74c9c3;
+    font-size: 18px;
+    text-align:right;
 
 }
-.stripe.mobileapp .phone2{
-    height: 500px;
+
+.stripe.mobileapp .phone1text{
+    font-family: HelveticaLTStd-Light;
+    color: #707070;
+    font-size: 14px;
+    text-align:right;
 }
+.stripe.mobileapp .phone2title{
+    font-family: BentonSans-Black;
+    color: #74c9c3;
+    font-size: 18px;
+    text-align:center;
+}
+
+.stripe.mobileapp .phone2text{
+    font-family: HelveticaLTStd-Light;
+    color: #707070;
+    font-size: 14px;
+    text-align:center;}
 
 .stripe.footer{
+    text-align: center;
     background-color: #74c9c3;
-    height: 300px;
+    height:auto;
     width: 100%;
+}
+.stripe.footer .references{
+    margin-top: 50px;
+}
+.stripe.footer .refs1{
+    height:35px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.stripe.footer .refs2{
+    height:40px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.stripe.footer .refs3{
+    height:35px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.stripe.footer .textref{
+    font-family: BentonSans-Bold;
+    font-size:16px;
+    color:#fbfbfb;
+    text-align:center;
+}
+.stripe.footer .byecombo{
+    margin-top:100px;
+    text-align: center;
+}
+
+.stripe.footer .contributebye{
+    background: #fbfbfb;
+    color: #74c9c3;
+    font-family: BentonSans-Bold;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    font-size: 22px;
+    height: 60px;
+    width: 350px;
+    line-height: 60px;
+    margin: 10px 0px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    padding:0;
+}
+.stripe.footer .contributebye:hover {
+    background: #fa1681;
+    color:#fbfbfb;
+}
+
+.stripe.footer .socialbye{
+    text-align: center;
+    display: inline-block;
+    margin: 8px;
+    height: 60px;
 }
