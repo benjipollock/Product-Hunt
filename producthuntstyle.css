@@ -18,6 +18,13 @@
     src: url("Fonts/HelveticaLTStd/HelveticaLTStd-light.otf") format('opentype');
     font-style: normal;
 }
+
+/* bootstrap corrections */
+
+a:hover {
+    text-decoration: none;
+}
+
 .stripe{
     margin-left: -15px;
     margin-right: -15px;
@@ -97,7 +104,10 @@
     color: white;
     padding: 3% 20% 0 20%;
 }
-.stripe.promo .words .item.button{
+.stripe.promo .words .buttonwrap:hover{
+    text-decoration: none;
+}
+.stripe.promo .words .buttonwrap .item.button{
     font-family: BentonSans-Regular;
     font-size: 13px;
     color: white;
