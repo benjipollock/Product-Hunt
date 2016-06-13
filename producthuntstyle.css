@@ -64,7 +64,7 @@ ul{
     margin-left:50%;
 }
 .stripe.menubar .header .menuitem.right .hamburger .meat.slice{
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 .stripe.menubar .header .menuitem.right .hamburger{
     display:inline-block;
@@ -356,10 +356,10 @@ ul{
     height: 60px;
     width: 350px;
     line-height: 60px;
-    margin: 10px 0px;
+    margin: 10px 0;
     text-align: center;
     border: 0;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     padding:0;
 }
