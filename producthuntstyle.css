@@ -20,11 +20,9 @@
 }
 
 /* bootstrap corrections */
-
 a:hover {
     text-decoration: none;
 }
-
 .stripe{
     margin-left: -15px;
     margin-right: -15px;
@@ -53,6 +51,34 @@ a:hover {
 .stripe.menubar .header .menuitem.right .item.text{
     padding: 5px 5px 5px 5px;
     font-size: 12px;
+    color: white;
+}
+
+.stripe.menubar .header .menuitem.right .hamburger .slice{
+    width:30px;
+    height:5px;
+    background-color: #74c9c3;
+    list-style-type: none;
+}
+ul{
+    margin-left:50%;
+}
+.stripe.menubar .header .menuitem.right .hamburger .meat.slice{
+    margin: 5px 0px;
+}
+.stripe.menubar .header .menuitem.right .hamburger{
+    display:inline-block;
+}
+.stripe.menubar .header .menuitem.right .navexpanded{
+    display:none;
+}
+@media screen and (min-width: 620px){
+    .stripe.menubar .header .menuitem.right .hamburger{
+        display:none;
+    }
+    .stripe.menubar .header .menuitem.right .navexpanded{
+        display:inline-block;
+    }
 }
 
 .stripe.menubar .menuitem .text:hover{
@@ -88,7 +114,7 @@ a:hover {
     font-family: BentonSans-Black;
     font-size: 48px;
     color: #74c9c3;
-    text-shadow: 5px 5px gray;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 .stripe.promo .words .item:nth-child(2){
     font-family: BentonSans-Bold;
@@ -111,11 +137,11 @@ a:hover {
     font-family: BentonSans-Regular;
     font-size: 13px;
     color: white;
-    text-shadow: 0 0;
     padding: 1% 0 1% 0;
     margin: 3% 30% 0 30%;
     background-color: #fa1681;
     text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 .stripe.promo .words .item.button:hover{
     color:gray;
@@ -142,9 +168,9 @@ a:hover {
     margin-bottom: 20px;
     padding-right: 1%;
     padding-left: 1%;
-    border-right: gray 2px solid;
-    border-left: gray 2px solid;
     margin-left: -2px;
+    text-align: center;
+
 }
 .stripe.features .item.first{
     border-left: gray 2px solid;
@@ -195,7 +221,7 @@ a:hover {
 }
 .stripe.videoholder .item .text.header{
     font-family: BentonSans-Black;
-    text-shadow: 3px 3px gray;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
     font-size: 23px;
     margin-bottom:10px;
 }
@@ -230,29 +256,29 @@ a:hover {
 
 .stripe.mobileapp .phone1{
     height: 450px;
-    margin-left: 50%;
+    margin-left: 60%;
     position: relative;
 }
 
 
 .stripe.mobileapp .phone2{
     height: 450px;
-    margin-left: 20%;
+    margin-left: 5%;
     position: relative;
 }
 
 .stripe.mobileapp .phonegiftext2{
     position:absolute;
     margin-top:-450px;
-    margin-left:350px;
+    margin-left: 45%;
+    width: 50%;
     padding:20px;
 }
 
 .stripe.mobileapp .phonegiftext1{
     position: absolute;
-    position:absolute;
     margin-top:-450px;
-    margin-left:350px;
+    width: 50%;
     padding:20px;
 }
 
