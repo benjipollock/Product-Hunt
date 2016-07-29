@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Tracy Tracker</title>
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="producthuntstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/producthuntstyle.css">
     <link rel="stylesheet" type="text/css" href="Fonts/fontawesome/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,19 +24,13 @@
 <div class="container-fluid stripe menubar">
     <div class="header">
         <div class="col-lg-6 col-md-6 col-sm-6 menuitem left">
-            <img src="images/Header/tracy_logo_new.png">
+            <img src="images/Header/tracy_logo_new.png" alt="Logo">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 menuitem right">
            <div class="navexpanded">
-               <a href="#tracking">
-            <span class="item text" href="#tracking">TRACKING</span>
-               </a>
-               <a href="#video">
-            <span class="item text" href="#video">VIDEO</span>
-                  </a>
-                   <a href="#features">
-            <span class="item text" href="#features">FEATURES</span>
-                       </a>
+               <a class="item text" href="#tracking">TRACKING</a>
+               <a class="item text" href="#video">VIDEO</a>
+               <a class="item text" href="#features">FEATURES</a>
             <span class="item icon" >
             <a class="link" href="https://www.facebook.com/tracytrackers/" target="_blank">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -61,38 +55,38 @@
         <div class="item">"HOW ARE YOU?"</div>
         <div class="item">BARKING NOW HAS AN ACCURATE ANSWER.</div>
         <div class="item">The worlds first artificially intellegent dog accessory that lets you know your dog's health, mood and more.</div>
-        <a class="buttonwrap" href="https://www.indiegogo.com/projects/tracy-giving-your-dog-a-voice#/" target="_blank">
-            <div class="item button">CONTRIBUTE NOW</div>
-        </a>
+        <button class="item button buttonwrap" onclick="window.open('https://www.indiegogo.com/projects/tracy-giving-your-dog-a-voice#/');" >
+            CONTRIBUTE NOW
+        </button>
     </div>
 </div>
 <div class="container-fluid stripe featuresheader">
     <div>BE A LOYAL FRIEND: UNDERSTAND YOUR DOG'S NEEDS</div>
 </div>
-<a name="tracking"></a>
+<a id="tracking"></a>
 <div class="container-fluid stripe features">
 
     <div class="col-lg-3 col-md-6 col-sm-12 item">
-        <img class="feature image" src="images/Icons/location_icon.png"><br/>
+        <img class="feature image" src="images/Icons/location_icon.png" alt="Location"><br/>
         <span class="feature text">See your dog's exact location in real time.<br/></span>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-12 item">
-        <img class="feature image" src="images/Icons/veterinarian_icon.png"><br/>
+        <img class="feature image" src="images/Icons/veterinarian_icon.png" alt="Health"><br/>
         <span class="feature text">When your dog is feeling ill or needs to be more active.</span>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-12 item">
-        <img class="feature image" src="images/Icons/bowl_icon.png"><br/>
+        <img class="feature image" src="images/Icons/bowl_icon.png" alt="Dog Bowl"><br/>
         <span class="feature text">When it is time for your dog to eat or drink.<br/></span>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-12 item">
-        <img class="feature image" src="images/Icons/dog-poop_icon.png"><br/>
+        <img class="feature image" src="images/Icons/dog-poop_icon.png" alt="Doggy Business"><br/>
         <span class="feature text">When your dog needs a bathroom break.<br/></span>
     </div>
     </div>
-<a name="video"></a>
+<a id="video"></a>
 <div class="container-fluid stripe videoholder">
     <div class="col-lg-6 col-md-6 col-sm-12 item video">
-        <iframe width=80% height="315" src="https://www.youtube.com/embed/tX8PeOUGWdc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/tX8PeOUGWdc?rel=0&amp;showinfo=0" allowfullscreen></iframe>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 item description vcenter">
         <div class="text header">TRACK HEALTH, MOOD, FEELINGS AND MORE.</div>
@@ -102,12 +96,12 @@
 
 </div>
 <!--/* Ilana updates */-->
-<a name="features"></a>
+<a id="features"></a>
 <div class="container-fluid stripe mobileapp">
     <div class="mobileappheader">CHECK TRACY FEATURES</div>
     <div class="col-md-6">
         <div>
-            <img class="phone1" src="images/ArrowsStrip/iphone_1.gif"><br/>
+            <img class="phone1" src="images/ArrowsStrip/iphone_1.gif" alt="App Functionality GIF"><br/>
         </div>
         <div class="phonegiftext1">
             <span class="phone1title">INTERACTIVE MAP<br/></span>
@@ -120,7 +114,7 @@
     </div>
     <div class="col-md-6">
         <div>
-            <img class="phone2" src="images/ArrowsStrip/iphone_2.gif">
+            <img class="phone2" src="images/ArrowsStrip/iphone_2.gif" alt="App Functionality GIF">
         </div>
         <div class="phonegiftext2">
             <span class="phone2title">LOWER VET COSTS<br/></span>
@@ -137,28 +131,27 @@
     <div class="col-md-5">
         <div class="references">
             <span class="textref">“The best part is that as you keep using the tracker, it learns your dog’s  behavioral patterns and becomes more accurate”.<br/></span>
-            <img class="refs1" src="images/Footer/digitaltrends.png"><br/>
+            <img class="refs1" src="images/Footer/digitaltrends.png" alt="Digital Trends"><br/>
             <span class="textref">“The collar goes beyond simply tracking where one’s pet is located, and utilizes artificial intelligence to monitor exercise and health."<br/></span>
-            <img class="refs2" src="images/Footer/trendhunter_cropped.png"><br/>
+            <img class="refs2" src="images/Footer/trendhunter_cropped.png" alt="Trendhunter"><br/>
             <span class="textref">“Adopting a dog is a lot of fun, but you need to keep a close eye on its health. Tracy can help you with that.”<br/></span>
-            <img class="refs3" src="images/Footer/gadgetify.png">
+            <img class="refs3" src="images/Footer/gadgetify.png" alt="Gadgetify">
         </div>
     </div>
     <div class="col-md-5">
         <div class ="byecombo">
-            <img class="logobye" src="images/Footer/tracy_logo_PINK_new.png"><br/>
-            <a href="https://www.indiegogo.com/projects/tracy-giving-your-dog-a-voice#/">
-            <button class="contributebye">CONTRIBUTE NOW</button>
-            </a>
+            <img class="logobye" src="images/Footer/tracy_logo_PINK_new.png" alt="Tracy Tracker Logo"><br/>
+            <button class="contributebye" onclick="window.open('https://www.indiegogo.com/projects/tracy-giving-your-dog-a-voice#/');">CONTRIBUTE NOW</button>
             <div class="displaysocialbye">
                 <a href="https://www.facebook.com/tracytrackers/" target="_blank">
-                <img class="socialbye" src="images/Footer/facebook_PINK_icon.png">
+                <img class="socialbye" src="images/Footer/facebook_PINK_icon.png" alt="Facebook Logo">
                     </a>
                 <a href="https://twitter.com/tracytrackers" target="_blank">
-                <img class="socialbye" src="images/Footer/twitter_PINK_icon.png">
+                <img class="socialbye" src="images/Footer/twitter_PINK_icon.png" alt="Twitter Logo">
                     </a>
             </div>
         </div>
+    </div>
     </div>
     <div class="col-md-1"></div>
 

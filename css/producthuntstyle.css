@@ -1,21 +1,21 @@
 @font-face {
     font-family: "BentonSans-Black";
-    src: url("Fonts/Benton_sans/BentonSansFree/BentonSans Black.otf") format('opentype');
+    src: url("../Fonts/Benton_sans/BentonSansFree/BentonSans Black.otf") format('opentype');
     font-style: normal;
 }
 @font-face {
     font-family: "BentonSans-Bold";
-    src: url("Fonts/Benton_sans/BentonSansFree/BentonSans Bold.otf") format('opentype');
+    src: url("../Fonts/Benton_sans/BentonSansFree/BentonSans Bold.otf") format('opentype');
     font-style: normal;
 }
 @font-face {
     font-family: "BentonSans-Regular";
-    src: url("Fonts/Benton_sans/BentonSansFree/BentonSans Regular.otf") format('opentype');
+    src: url("../Fonts/Benton_sans/BentonSansFree/BentonSans Regular.otf") format('opentype');
     font-style: normal;
 }
 @font-face {
     font-family: "HelveticaLTStd-Light";
-    src: url("Fonts/HelveticaLTStd/HelveticaLTStd-light.otf") format('opentype');
+    src: url("../Fonts/HelveticaLTStd/HelveticaLTStd-Light.otf") format('opentype');
     font-style: normal;
 }
 
@@ -95,7 +95,7 @@ ul{
 }
 .stripe.promo{
     height: 600px;
-    background-image: url(images/BannerStrip/pedro_gif_large.gif);
+    background-image: url(../images/BannerStrip/pedro_gif_large.gif);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -133,11 +133,11 @@ ul{
 .stripe.promo .words .buttonwrap:hover{
     text-decoration: none;
 }
-.stripe.promo .words .buttonwrap .item.button{
+.stripe.promo .words .item.button.buttonwrap{
     font-family: BentonSans-Regular;
     font-size: 13px;
     color: white;
-    padding: 1% 0 1% 0;
+    padding: 1% 1% 1% 1%;
     margin: 3% 30% 0 30%;
     background-color: #fa1681;
     text-decoration: none;
